@@ -92,3 +92,4 @@ local.properties
 # Azth
 
 !/www/modules/azerothshard/
+!/config.xml
