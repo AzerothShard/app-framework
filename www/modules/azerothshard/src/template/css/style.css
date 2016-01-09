@@ -1,0 +1,25 @@
+body {
+    background-color: #333333
+}
+
+#wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+#logo {
+    width: 30%;
+}
+
+html, body, #wrapper-table {
+    height:100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#wrapper-table td {
+    vertical-align: middle;
+    text-align: center;
+}

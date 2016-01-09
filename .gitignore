@@ -87,3 +87,8 @@ local.properties
 !/www/modules/bootstrap/
 /www/conf/*
 !/www/conf/*.def.*
+
+
+# Azth
+
+!/www/modules/azerothshard/
