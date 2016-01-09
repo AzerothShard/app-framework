@@ -1,6 +1,6 @@
 {
     "appTitle": "AzerothShard",
-    "url": "http://azerothshard.ga/",
+    "url": "http://app.azerothshard.ga/",
     "urlCrossOrigin": "http://azerothshard.ga/test-connection.php",
     "customScript": "modules/azerothshard/src/azth.js"
 }
