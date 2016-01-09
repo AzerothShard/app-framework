@@ -7,7 +7,7 @@
     <author email="info@azerothshard.ga" href="http://www.azerothshard.ga">
         AzerothShard
     </author>
-    <icon src="www/modules/azerothshard/data/img/logo.png" />
+    <icon src="logo.png" />
     <preference name="permissions" value="none" />
     <preference name="orientation" value="portrait" />
     <preference name="target-device" value="universal" />
