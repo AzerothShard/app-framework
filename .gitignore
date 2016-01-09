@@ -93,3 +93,4 @@ local.properties
 
 !/www/modules/azerothshard/
 !/config.xml
+!/www/conf/conf.json
