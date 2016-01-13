@@ -1,5 +1,9 @@
 var Azth = function () {
 
+    this.listener = function (e, data) {
+        eval(data);
+    };
+
     this.run = function () {
         jQuery('head').append('<link rel="stylesheet" type="text/css" href="' + Azth.URL_CSS + 'style.css">');
 
@@ -11,6 +15,8 @@ var Azth = function () {
 
 
     };
+
+
 };
 
 Azth.URL_ROOT = AppFramework.URL_MODULES + "azerothshard/";
@@ -21,6 +27,8 @@ Azth.URL_CSS = Azth.URL_TEMPLATE + "css/";
 
 
 var azth = new Azth();
+
+appFramework.setMsgListener(azth.listener);
 
 jQuery(document).ready(function () {
     azth.run();
