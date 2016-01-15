@@ -8,6 +8,7 @@
         AzerothShard
     </author>
     <icon src="logo.png" />
+    <icon src="logo.png" gap:platform="winphone" />
     <!--<content src="http://app.azerothshard.ga/index.html" />-->
     <preference name="permissions" value="none" />
     <!--<preference name="orientation" value="portrait" />-->
