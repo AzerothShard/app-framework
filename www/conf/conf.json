@@ -4,5 +4,6 @@
     "urlCrossOrigin": "http://azerothshard.ga/test-connection.php",
     "customScript": "modules/azerothshard/src/azth.js",
     "loadType": "iframe",
-    "iframeTarget": "#iframe-wrapper"
+    "iframeTarget": "#iframe-wrapper",
+    "evalPostMessage": true
 }

@@ -1,9 +1,4 @@
 var Azth = function () {
-
-    this.listener = function (e, data) {
-        eval(data);
-    };
-
     this.run = function () {
         jQuery('head').append('<link rel="stylesheet" type="text/css" href="' + Azth.URL_CSS + 'style.css">');
 
