@@ -10,6 +10,7 @@
     <gap:platform name="winphone" />
     <gap:platform name="android" />
     <gap:platform name="ios" />
+    <content src="src/main.html" />
     <icon src="logo.png" />
     <icon src="logo.png" gap:platform="winphone" />
     <!--<content src="http://app.azerothshard.ga/index.html" />-->
