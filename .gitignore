@@ -90,6 +90,7 @@ local.properties
 
 # Azth
 
+/www/usr/
 !/www/modules/azerothshard/
 !/config.xml
 !/www/conf/conf.json
